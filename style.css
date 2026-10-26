@@ -1,0 +1,300 @@
+* {
+     margin: 0;
+     padding: 0; box-sizing:
+      border-box;
+     } 
+     body
+      {
+         font-family:
+         Arial, sans-serif;
+          background-color: #fff8fb;
+           color: #44313b;
+            line-height: 1.6;
+          background-attachment: fixed;
+
+
+
+        }
+          header
+           {
+             background-color: white;
+              padding: 20px 8%; 
+              display: flex; justify-content:
+               space-between; 
+               align-items: center;
+                flex-wrap: wrap;
+                 gap: 15px;
+                } 
+                header h1
+                 {
+                     color: #e75480;
+                      font-size: 26px;
+                     } 
+                     nav a
+                      {
+                         text-decoration: none;
+                          color: #44313b;
+                           margin: 0 8px;
+                            font-weight: bold;
+                         }
+                          nav a:hover 
+                          {
+                             color: #e75480; 
+                            }
+                             .hero { 
+                                min-height: 420px;
+                                 background: linear-gradient( 135deg, #ffe0ec, #fff8fb );
+                                  display: flex;
+                                   justify-content: center;
+                                    align-items: center;
+                                     text-align: center;
+                                      padding: 50px 20px;
+                                     }
+                                      .hero-content h2 {
+                                         font-size: 42px; color: #c93670; 
+                                        margin-bottom: 15px; 
+                                    }
+                                     .hero-content p {
+                                         max-width: 550px;
+                                         margin: 0 auto 25px;
+                                         }
+                                          .button 
+                                          {
+                                             display: inline-block;
+                                              background-color: #e75480;
+                                               color: white; 
+                                               padding: 12px 24px;
+                                                border-radius: 25px;
+                                                 text-decoration: none; 
+                                                 margin-top: 15px;
+                                                 }
+                                                  .button:hover
+                                                   {
+                                                     background-color: #c93670;
+                                                     }
+                                                      section:not(.hero)
+                                                       {
+                                                         padding: 60px 8%;
+                                                          text-align: center;
+                                                         }
+                                                          section h2 { 
+                                                            color: #c93670;
+                                                             margin-bottom: 20px;
+                                                             }
+                                                              .services-container {
+                                                                 display: flex;
+                                                                 justify-content: center;
+                                                                  flex-wrap: wrap;
+                                                                   gap: 20px;
+                                                                 }
+                                                                  .service-card
+                                                                   {
+                                                                     background: white;
+                                                                      padding: 25px;
+                                                                      width: 220px;
+                                                                       border-radius: 12px;
+                                                                       box-shadow: 0 4px 15px #00000010; 
+                                                                    } 
+                                                                    .service-card h3 
+                                                                    { 
+                                                                        color: #e75480; 
+                                                                        margin-bottom: 10px; 
+                                                                    }
+                                                                     footer
+                                                                      {
+                                                                         background-color: #44313b; color: white;
+                                                                          text-align: center;
+                                                                           padding: 20px; 
+                                                                        }
+                                                                         @media (max-width: 600px)
+                                                                          {
+                                                                             header {
+                                                                                 flex-direction: column;
+                                                                                 } 
+                                                                                 nav {
+                                                                                     text-align: center;
+                                                                                     } nav a 
+
+                                                                                     {
+                                                                                         display: inline-block; margin: 6px; 
+                                                                        } 
+                                                                        .hero-content h2 {
+                                                                             font-size: 30px; 
+                                                                        
+                                                                        } 
+                                                                        .service-card { 
+                                                                            width: 100%;
+                                                                             max-width: 350px;
+
+                                                                         }
+                                                                         }
+                                                                         .gallery-container {
+                                                                             display: grid;
+                                                                              grid-template-columns:subgrid;
+                                                                             box-shadow: #e75480;
+                                                                               gap: px;
+                                                                                margin-top: 30px;
+                                                                              shape-margin: 30px;
+                                                                              border-radius: 10px;
+                                                                             } 
+                                                                             .gallery-container img { 
+                                                                                width: 20%;
+                                                                                 height: 150px;
+                                                                                  object-fit: cover;
+                                                                                   border-radius: 20px;
+                                                                                    box-shadow:  0 5px 15px #cd0d4720;
+                                                                                 } 
+                                                                                 @media (max-width: 700px) 
+                                                                                 {
+                                                                                     .gallery-container 
+                                                                                     {
+                                                                                         grid-template-columns: 1fr;
+                                                                                         height: 250px;
+                                                                                         }
+                                                                                          .gallery-container img {
+                                                                                             height: 230px;
+                                                                                             width: 200px;
+                                                                                             }
+                                                                                             }
+                                                                                            button.button {
+    border: none;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+}
+#prices {
+padding: 50px 20px;
+text-align: center;
+background: #fff8fb;
+}
+
+#prices h2 {
+color: #b52d68;
+margin-bottom: 12px;
+}
+
+.price-category {
+max-width: 600px;
+margin: 30px auto;
+padding: 22px;
+background: white;
+border: 1px solid #f0c9da;
+border-radius: 14px;
+box-shadow: 0 4px 12px rgba(120, 30, 70, 0.08);
+text-align: left;
+}
+
+.price-category h3 {
+color: #b52d68;
+border-bottom: 2px solid #f3d5e2;
+padding-bottom: 12px;
+margin-bottom: 15px;
+}
+
+.price-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 15px;
+padding: 10px 0;
+border-bottom: 1px solid #f7e8ef;
+color: #333;
+}
+
+.price-item {
+border-bottom: none;
+}
+
+.price-item strong {
+color: #b52d68;
+white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+.price-category {
+padding: 15px;
+}
+
+.price-item {
+    font-size: 14px;
+}
+
+}
+#contact {
+padding: 50px 20px;
+text-align: center;
+background: white;
+}
+
+#contact h2 {
+color: #b52d68;
+margin-bottom: 12px;
+}
+
+.contact-details {
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+gap: 20px;
+max-width: 1000px;
+margin: 30px auto;
+}
+
+.contact-item {
+padding: 22px 15px;
+background: #fff8fb;
+border: 1px solid #f0c9da;
+border-radius: 12px;
+}
+
+.contact-item h3 {
+color: #b52d68;
+margin-bottom: 12px;
+}
+
+.contact-item p {
+line-height: 1.6;
+}
+
+.contact-note {
+margin-top: 25px;
+color: #b52d68;
+font-weight: bold;
+}
+
+@media (max-width: 700px) {
+.contact-details {
+grid-template-columns: 1fr;
+}
+}
+.map-container {
+max-width: 900px;
+margin: 35px auto;
+padding: 20px;
+background: #fff8fb;
+border: 1px solid #f0c9da;
+border-radius: 14px;
+}
+
+.map-container h3 {
+color: #b52d68;
+margin-bottom: 20px;
+}
+
+.map-container iframe {
+display: block;
+border-radius: 10px;
+}
+
+.map-container p {
+margin-top: 18px;
+}
+
+.map-container a {
+color: #b52d68;
+font-weight: bold;
+text-decoration: none;
+}
+
+.map-container a {
+text-decoration: underline;
+}
